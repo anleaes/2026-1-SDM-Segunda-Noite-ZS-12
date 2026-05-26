@@ -4,4 +4,4 @@ from rest_framework import serializers
 class StudentSerializer(serializers.ModelSerializer):
     class Meta:
         model = Student
-        fields = '__all__'
+        fields = ['name', 'cpf', 'email', 'matricula', 'data_nascimento', 'status']
