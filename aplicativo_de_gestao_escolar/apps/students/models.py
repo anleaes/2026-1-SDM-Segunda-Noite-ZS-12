@@ -11,6 +11,7 @@ class Student(Person):
         ('inativo', 'Inativo'),
         ('trancado', 'Trancado'),
     ]
+    status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='ativo')
 
     matricula = models.CharField('Matricula', max_length=20, unique=True)
     data_nascimento = models.DateField('Data de nascimento')
