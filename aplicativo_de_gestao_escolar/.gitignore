@@ -2,3 +2,6 @@
 /apps/pessoa/migrations/*
 __pycache__/
 *.pyc
+/apps/classes/__pycache__/*
+/apps/classes/migrations/*
+*.env
