@@ -1,4 +1,8 @@
-/apps/pessoa/__pycache__/*
-/apps/pessoa/migrations/*
+/apps/person/__pycache__/*
+/apps/person/migrations/*
 __pycache__/
 *.pyc
+/apps/student/__pycache__/*
+/apps/student/migrations/*
+/apps/teacher/__pycache__/*
+/apps/teacher/migrations/*
