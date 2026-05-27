@@ -7,5 +7,6 @@ router = routers.SimpleRouter()
 router.register('',views.TeacherViewSet, basename='professores')
 
 urlpatterns = [ 
-    path('', include(router.urls))
+    path('', include(router.urls)) 
+    
 ]
