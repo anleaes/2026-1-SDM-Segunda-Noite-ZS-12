@@ -9,3 +9,4 @@ __pycache__/
 /apps/student/migrations/*
 /apps/teacher/__pycache__/*
 /apps/teacher/migrations/*
+*.vscode
