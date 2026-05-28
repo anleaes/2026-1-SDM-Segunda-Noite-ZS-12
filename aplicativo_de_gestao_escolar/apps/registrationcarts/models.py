@@ -7,21 +7,21 @@ class RegistrationCart(models.Model):
     registration = models.ForeignKey(
         'registrations.Registration',
         on_delete=models.CASCADE,
-        related_name='registration_carts',
+        related_name='registrationcarts',
         verbose_name='Matrícula'
     )
 
     discipline = models.ForeignKey(
         'disciplines.Discipline',
         on_delete=models.CASCADE,
-        related_name='registration_carts',
+        related_name='registrationcarts',
         verbose_name='Disciplina'
     )
 
     teacher = models.ForeignKey(
         'teachers.Teacher',
         on_delete=models.CASCADE,
-        related_name='registration_carts',
+        related_name='registrationcarts',
         verbose_name='Professor'
     )
 
