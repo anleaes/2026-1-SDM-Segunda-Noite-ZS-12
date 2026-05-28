@@ -19,3 +19,10 @@ class Registration(models.Model):
         verbose_name='Turma'
     )
 
+    class Meta:
+        verbose_name = 'Matrícula'
+        verbose_name_plural = 'Matrículas'
+        ordering = ['id']
+
+    def __str__(self):
+        return f'{self.id} - {self.situacao}'
