@@ -2,7 +2,11 @@
 /apps/person/migrations/*
 __pycache__/
 *.pyc
+/apps/classes/__pycache__/*
+/apps/classes/migrations/*
+*.env
 /apps/student/__pycache__/*
 /apps/student/migrations/*
 /apps/teacher/__pycache__/*
 /apps/teacher/migrations/*
+*.vscode
