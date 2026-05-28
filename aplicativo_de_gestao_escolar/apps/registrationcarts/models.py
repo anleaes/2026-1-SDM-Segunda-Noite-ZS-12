@@ -25,3 +25,10 @@ class RegistrationCart(models.Model):
         verbose_name='Professor'
     )
 
+    class Meta:
+        verbose_name = 'Carrinho de Matrícula'
+        verbose_name_plural = 'Carrinhos de Matrícula'
+        ordering = ['id']
+
+    def __str__(self):
+        return f'{self.id} - {self.status}'
