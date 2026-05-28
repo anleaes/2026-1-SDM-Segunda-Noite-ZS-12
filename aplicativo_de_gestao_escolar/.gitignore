@@ -10,3 +10,5 @@ __pycache__/
 /apps/teacher/__pycache__/*
 /apps/teacher/migrations/*
 *.vscode
+/apps/registrationcart/__pycache__/*
+/apps/registrationcart/migrations/*
