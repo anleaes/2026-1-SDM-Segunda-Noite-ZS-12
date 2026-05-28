@@ -12,6 +12,8 @@ class Student(Person):
         ('trancado', 'Trancado'),
     ]
     status = models.CharField(max_length=10, choices=STATUS_CHOICES, default='ativo')
+    responsaveis = models.ManyToManyField('parents.Parent')
+
 
     matricula = models.CharField('Matricula', max_length=20, unique=True)
     data_nascimento = models.DateField('Data de nascimento')
