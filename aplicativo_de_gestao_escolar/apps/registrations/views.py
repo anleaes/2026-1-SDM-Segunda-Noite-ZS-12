@@ -4,3 +4,6 @@ from .models import Registration
 from .serializer import RegistrationSerializer
 
 # Create your views here.
+class RegistrationViewSet(viewsets.ModelViewSet):
+    queryset = Registration.objects.all()
+    serializer_class = RegistrationSerializer  
