@@ -24,6 +24,6 @@ urlpatterns = [
     path('estudante/', include('students.urls', namespace='students')),    
     path('professor/', include('teachers.urls', namespace='teachers')),
     path('turma/', include('classes.urls', namespace='classes')),
-    path('carrinhomatricula/', include('registrationcarts.urls', namespace='registrationcarts'))    
+    path('carrinhomatricula/', include('registrationcarts.urls', namespace='registrationcarts')),    
 
 ]

@@ -12,3 +12,5 @@ __pycache__/
 *.vscode
 /apps/registrationcart/__pycache__/*
 /apps/registrationcart/migrations/*
+/apps/registration/__pycache__/*
+/apps/registration/migrations/*
