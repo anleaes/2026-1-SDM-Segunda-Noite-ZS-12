@@ -23,6 +23,8 @@ urlpatterns = [
     path('pessoa/', include('persons.urls', namespace='persons')),
     path('estudante/', include('students.urls', namespace='students')),    
     path('professor/', include('teachers.urls', namespace='teachers')),
-    path('turma/', include('classes.urls', namespace='classes'))
+    path('turma/', include('classes.urls', namespace='classes')),
+    path('responsavel/', include('parents.urls', namespace='parents')),    
+
 
 ]
