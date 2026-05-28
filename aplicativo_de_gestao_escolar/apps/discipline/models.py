@@ -1,3 +1,6 @@
 from django.db import models
 
-# Create your models here.
+class Discipline(models.Model):
+    name = models.CharField('Name', max_length=100)
+    workload = models.IntegerField('Workload')
+    code = models.CharField('Code', max_length=20)
