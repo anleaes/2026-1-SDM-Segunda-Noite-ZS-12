@@ -4,6 +4,6 @@ from .models import RegistrationCart
 from .serializer import RegistrationCartSerializer
 
 # Create your views here.
-class CategoryViewSet(viewsets.ModelViewSet):
+class RegistrationCartViewSet(viewsets.ModelViewSet):
     queryset = RegistrationCart.objects.all()
     serializer_class = RegistrationCartSerializer  
