@@ -26,5 +26,6 @@ urlpatterns = [
     path('turma/', include('classes.urls', namespace='classes')),
     path('carrinhomatricula/', include('registrationcarts.urls', namespace='registrationcarts')), 
     path('matricula/', include('registrations.urls', namespace='registrations')),   
+    path('aula/', include('classrooms.urls', namespace='classrooms')),   
 
 ]
