@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'classes.apps.ClassesConfig',
     'registrationcarts.apps.RegistrationcartsConfig',
     'registrations.apps.RegistrationsConfig',
+    'classrooms.apps.ClassroomsConfig',
 
 ]
 

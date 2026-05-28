@@ -14,3 +14,5 @@ __pycache__/
 /apps/registrationcart/migrations/*
 /apps/registration/__pycache__/*
 /apps/registration/migrations/*
+/apps/classroom/__pycache__/*
+/apps/classroom/migrations/*
