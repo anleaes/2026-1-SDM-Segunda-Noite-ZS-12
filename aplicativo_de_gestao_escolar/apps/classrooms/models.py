@@ -21,3 +21,10 @@ class Classroom(models.Model):
         verbose_name='Disciplina'
     )
 
+    class Meta:
+        verbose_name = 'Aula'
+        verbose_name_plural = 'Aulas'
+        ordering = ['id']
+
+    def __str__(self):
+        return f'{self.id} - {self.sala}'
