@@ -1,11 +1,11 @@
 from django.shortcuts import render
 
 from rest_framework import viewsets
-from .models import Category
-from .serializer import CategorySerializer
+from .models import Discipline
+from .serializer import DisciplineSerializer
 
-class CategoryViewSet(viewsets.ModelViewSet):
-    queryset = Category.objects.all()
-    serializer_class = CategorySerializer  
+class DisciplineViewSet(viewsets.ModelViewSet):
+    queryset = Discipline.objects.all()
+    serializer_class = DisciplineSerializer  
 
 
