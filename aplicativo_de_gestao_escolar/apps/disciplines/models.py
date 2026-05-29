@@ -1,4 +1,4 @@
-from django.db import models
+
 
 from django.db import models
 
@@ -8,8 +8,8 @@ class Discipline(models.Model):
     code = models.CharField('Code', max_length=20)
 
     class Meta:
-        verbose_name = 'Discipline'
-        verbose_name_plural = 'Disciplines'
+        verbose_name = 'Disciplina'
+        verbose_name_plural = 'Disciplinas'
         ordering = ['id']
 
     def __str__(self):
