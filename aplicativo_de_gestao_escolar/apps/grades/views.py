@@ -1,3 +1,7 @@
 from rest_framework import viewsets
-from .models import Category
-from .serializer import CategorySerializer
+from .models import Grades
+from .serializer import GradesSerializer
+
+class GradesViewSet(viewsets.ModelViewSet):
+    queryset = Grades.objects.all()
+    serializer_class = GradesSerializer  
