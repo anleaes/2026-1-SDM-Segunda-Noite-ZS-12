@@ -15,3 +15,6 @@ __pycache__/
 /apps/bulletins/__pycache__/*
 /apps/bulletins/migrations/*
 
+/apps/grades/__pycache__/*
+/apps/grades/migrations/*
+
