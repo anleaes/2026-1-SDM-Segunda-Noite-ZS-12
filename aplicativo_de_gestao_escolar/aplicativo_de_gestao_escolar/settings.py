@@ -50,6 +50,8 @@ INSTALLED_APPS = [
     'classes.apps.ClassesConfig',
     'disciplines.apps.DisciplinesConfig',
     'bulletins.apps.BulletinsConfig',
+    'grasdes.apps.GradesConfig',
+
 
     
 ]
