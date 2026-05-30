@@ -26,5 +26,6 @@ urlpatterns = [
     path('turma/', include('classes.urls', namespace='classes')),
     path('disciplina/', include('disciplines.urls', namespace='disciplines')),    
     path('bulletins/', include('bulletins.urls', namespace='bulletins')),
+    path('grades/', include('grades.urls', namespace='grades')),
 
 ]

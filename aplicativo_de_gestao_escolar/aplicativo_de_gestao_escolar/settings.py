@@ -51,6 +51,9 @@ INSTALLED_APPS = [
     'disciplines.apps.DisciplinesConfig',
     'bulletins.apps.BulletinsConfig',
     'grades.apps.GradesConfig',
+    'bulletinitem.apps.BulletinitemConfig',
+    
+    
 
 
     
