@@ -10,5 +10,8 @@ __pycache__/
 /apps/teacher/__pycache__/*
 /apps/teacher/migrations/*
 *.vscode
-/apps/discipline/__pycache__/*
-/apps/discipline/migrations/*
+/apps/disciplines/__pycache__/*
+/apps/disciplines/migrations/*
+/apps/bulletins/__pycache__/*
+/apps/bulletins/migrations/*
+
