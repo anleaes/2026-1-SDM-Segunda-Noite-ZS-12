@@ -12,3 +12,11 @@ class Bulletins(models.Model):
         related_name='bulletin',
         verbose_name='Student'
     )
+
+    class Meta:
+        verbose_name = 'Bulletin'
+        verbose_name_plural = 'Bulletins'
+        ordering = ['id']
+
+    def __str__(self):
+        return f'Bulletin - {self.student} ({self.school_year} / Sem {self.semester})'
