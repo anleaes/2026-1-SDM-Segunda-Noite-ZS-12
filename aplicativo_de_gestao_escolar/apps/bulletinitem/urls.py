@@ -5,7 +5,7 @@ from rest_framework import routers
 app_name = 'bulletinitems'
 
 router = routers.SimpleRouter()
-router.register('', views.CategoryViewSet, basename='itemboletim')
+router.register('', views.BulletinitemViewSet, basename='itemboletiem')
 
 urlpatterns = [
     path('', include(router.urls) )
